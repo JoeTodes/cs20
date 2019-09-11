@@ -1,0 +1,10 @@
+{
+    "configurations": [{
+        "type": "java",
+        "name": "CodeLens (Launch) - GradeMessage",
+        "request": "launch",
+        "mainClass": "GradeMessage",
+        "projectName": "2-Conditionals_18d9ee5d",
+        "console": "integratedTerminal"
+    }]
+}
