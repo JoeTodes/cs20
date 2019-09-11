@@ -1,0 +1,17 @@
+{
+    "configurations": [{
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "cs20_7a5b5030",
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GradeMessage",
+            "request": "launch",
+            "mainClass": "GradeMessage",
+            "projectName": "cs20_7a5b5030"
+        }
+    ]
+}

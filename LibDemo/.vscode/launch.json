@@ -1,11 +1,10 @@
 {
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Hello",
-            "request": "launch",
-            "mainClass": "Hello",
-            "projectName": "LibDemo_b1e335b3"
-        }
-    ]
+    "configurations": [{
+        "type": "java",
+        "name": "CodeLens (Launch) - Hello",
+        "request": "launch",
+        "mainClass": "Hello",
+        "projectName": "LibDemo_9e433f09",
+        "console": "internalConsole"
+    }]
 }
