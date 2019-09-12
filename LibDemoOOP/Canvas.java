@@ -7,7 +7,7 @@ public class Canvas extends PApplet {
     public Goober goob;
 
     public Canvas() {
-        goob = new Goober(this);
+        goob = new Goober();
     }
 
     public void run() {
@@ -19,19 +19,19 @@ public class Canvas extends PApplet {
     }
 
     public void setup() {
-        surface.setLocation(600, 200);
+       
 
     }
 
     public void draw() {
         background(0);
-        goob.show();
+        goob.show(this);
         System.out.println(goob.r);
     }
 
     public void updateGoob() {
         System.out.println("updating");
-        goob.randomColor();
+        goob.randomColor(random(255), random(255), random(255));
 
     }
 }
