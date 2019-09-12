@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GradeMessage {
     public static void main(String[] args) {
-        System.out.println("Please enter your grade");
+        System.out.println("Please enter your grade ");
 
         Scanner scanner = new Scanner(System.in);
         int grade = scanner.nextInt();

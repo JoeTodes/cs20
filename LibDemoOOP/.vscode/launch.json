@@ -1,0 +1,10 @@
+{
+    "configurations": [{
+        "type": "java",
+        "name": "CodeLens (Launch) - App",
+        "request": "launch",
+        "mainClass": "App",
+        "projectName": "LibDemoOOP_3385aac7",
+        "console": "internalConsole"
+    }, ]
+}
