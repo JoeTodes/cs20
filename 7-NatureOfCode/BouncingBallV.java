@@ -16,7 +16,7 @@ public class BouncingBallV extends PApplet {
 
     public void setup() {
         position = new PVector(320, 240);
-        velocity = new PVector(20, 15);
+        velocity = new PVector(1, 3);
     }
 
     public void draw() {
@@ -31,11 +31,17 @@ public class BouncingBallV extends PApplet {
     }
 
     void checkEdges() {
-        if (position.x <= 0 || position.x >= 640) {
-            velocity.x = velocity.x * -1;
+        if (position.x < 0) {
+            position.x = 640;
         }
-        if (position.y <= 0 || position.y >= 480) {
-            velocity.y = velocity.y * -1;
+        if (position.x > 640) {
+            position.x = 0;
+        }
+        if (position.y < 0) {
+            position.y = 480;
+        }
+        if (position.y > 480) {
+            position.y = 0;
         }
     }
 
